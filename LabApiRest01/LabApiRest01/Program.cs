@@ -2,10 +2,8 @@ using LabApiRest01.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
-
 
 // Add services to the container.
 
@@ -15,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
@@ -38,12 +37,27 @@ app.UseCors("corspolicy");
 
 app.UseAuthorization();
 
-app.Run(async context =>
-{
-    await context.Response.WriteAsync("hello from the middeleware component. ");
+//app.Run(async context =>
+//{
+//    await context.Response.WriteAsync("hello from the middeleware component. ");
+//});
+
+app.Use(async (context, next) => {
+
+    Console.WriteLine($"Logic before executing the next delegate in the Use method");
+    await next.Invoke(); 
+    Console.WriteLine($"Logic after executing the next delegate in the Use method");
+
 });
 
 app.MapControllers();
+
+app.Run(async context => {
+
+    Console.WriteLine($"Writing the response to the client in the Run method");
+    await context.Response.WriteAsync("Hello from the middleware component.");
+
+});
 
 app.Run();
 
@@ -51,3 +65,4 @@ namespace Microsoft.AspNetCore.Http
 {
     public delegate Task RequestDelegate(HttpContext context);
 }
+
