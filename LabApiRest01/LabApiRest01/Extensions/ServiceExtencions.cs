@@ -1,4 +1,9 @@
-﻿namespace LabApiRest01.Extensions
+﻿using Contracts;
+using LoggerService;
+using Microsoft.EntityFrameworkCore;
+using NLog;
+
+namespace LabApiRest01.Extensions
 {
     public static class ServiceExtencions
     {
@@ -13,5 +18,15 @@
 
         public static void ConfigureIISIntegration(this IServiceCollection services) => services
             .Configure<IISOptions>(options => { });
+
+        public static void ConfigureLoggerService(this IServiceCollection services) =>
+            services.AddSingleton<ILoggerManager, LoggerManager>();
+
+
+
+
     }
 }
+
+
+

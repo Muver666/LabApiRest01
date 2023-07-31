@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Contracts;
 
 namespace LabApiRest01.Controllers
 {
@@ -6,21 +7,34 @@ namespace LabApiRest01.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private ILoggerManager _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        //public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        public WeatherForecastController(ILoggerManager logger)
         {
-            _logger = logger;
+            this._logger = logger;
         }
+
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogInfo("Here is info message from our values controller.");
+            _logger.LogDebug("Here is debug message from our values controller");
+            _logger.LogWarn("Here is warning message from our values controller");
+            _logger.LogError("Here is error message from our values controller");
+
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

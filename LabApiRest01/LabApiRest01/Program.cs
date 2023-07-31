@@ -1,9 +1,18 @@
 using LabApiRest01.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.EntityFrameworkCore;
+using NLog;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
+builder.Services.ConfigureLoggerService();
+builder.Services.AddDbContext<RepositoryContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+
 
 // Add services to the container.
 
@@ -37,20 +46,22 @@ app.UseCors("corspolicy");
 
 app.UseAuthorization();
 
-//app.Run(async context =>
-//{
-//    await context.Response.WriteAsync("hello from the middeleware component. ");
-//});
+app.Run(async context =>
+{
+    await context.Response.WriteAsync("hello from the middeleware component. ");
+});
 
-app.Use(async (context, next) => {
+app.Use(async (context, next) =>
+{
 
     Console.WriteLine($"Logic before executing the next delegate in the Use method");
-    await next.Invoke(); 
+    await next.Invoke();
     Console.WriteLine($"Logic after executing the next delegate in the Use method");
 
 });
 
-app.Map("/usingmapbranch", builder => {
+app.Map("/usingmapbranch", builder =>
+{
     builder.Use(async (context, next) =>
     {
 
@@ -59,7 +70,8 @@ app.Map("/usingmapbranch", builder => {
 
     });
 
-    builder.Run(async context => {
+    builder.Run(async context =>
+    {
         Console.WriteLine($"Map branch response to the client in the Run method");
         await context.Response.WriteAsync("Hello from the map branch.");
 
@@ -67,13 +79,16 @@ app.Map("/usingmapbranch", builder => {
 
 });
 
-app.MapWhen(context => context.Request.Query.ContainsKey("testquerystring"), builder => {
-    builder.Run(async context => {
+app.MapWhen(context => context.Request.Query.ContainsKey("testquerystring"), builder =>
+{
+    builder.Run(async context =>
+    {
         await context.Response.WriteAsync("Hello from the MapWhen branch.");
     });
 });
 
-app.Run(async context => {
+app.Run(async context =>
+{
 
     Console.WriteLine($"Writing the response to the client in the Run method");
     await context.Response.WriteAsync("Hello from the middleware component.");
