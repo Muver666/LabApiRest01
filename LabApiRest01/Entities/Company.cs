@@ -18,11 +18,11 @@ namespace Entities.Models
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Employe name is a required failed. ")]
         [MaxLength(60, ErrorMessage = "Maximun length for the name is 60 characters")]
-        public string? Name { get; set; }
+        public string Name { get; set; }
         [Required(ErrorMessage = "Compani address is a required failed. ")]
         [MaxLength(60, ErrorMessage = "Maximun length for the address is 60 characters")]
-        public string? Address { get; set; }
-        public string? Country { get; set; }
+        public string Address { get; set; }
+        public string Country { get; set; }
 
         public ICollection<Employee> Employees { get; set; }
 

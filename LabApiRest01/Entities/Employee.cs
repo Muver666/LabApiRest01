@@ -17,15 +17,15 @@ namespace Entities.Models
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Employe name is a required failed. ")]
         [MaxLength(30, ErrorMessage = "Maximun length for the name is 30 characters")]
-        public string? Name { get; set; }
+        public string Name { get; set; }
         [Required(ErrorMessage = "Age is a required failed. ")]
         public int Age { get; set; }
         [Required(ErrorMessage ="Position is a required failed. ")]
         [MaxLength(20, ErrorMessage = "Maximun length for the position is 20 characters")]
-        public string? Position { get; set; }
+        public string Position { get; set; }
         [ForeignKey(nameof(Company))]
-        public Guid CompaniId { get; set; }
-        public Company? company { get; set; }
+        public Guid CompanyId { get; set; }
+        public Company company { get; set; }
 
     }
 }

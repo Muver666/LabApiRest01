@@ -2,6 +2,7 @@
 using LoggerService;
 using Microsoft.EntityFrameworkCore;
 using NLog;
+using Repository;
 
 namespace LabApiRest01.Extensions
 {
@@ -22,8 +23,11 @@ namespace LabApiRest01.Extensions
         public static void ConfigureLoggerService(this IServiceCollection services) =>
             services.AddSingleton<ILoggerManager, LoggerManager>();
 
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
 
     }
 }

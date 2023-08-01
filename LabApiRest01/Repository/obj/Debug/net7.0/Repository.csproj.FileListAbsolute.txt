@@ -13,3 +13,5 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\obj\
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\obj\Debug\net7.0\refint\Repository.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\obj\Debug\net7.0\Repository.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\bin\Debug\net7.0\Contracts.dll
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\Repository\bin\Debug\net7.0\Contracts.pdb

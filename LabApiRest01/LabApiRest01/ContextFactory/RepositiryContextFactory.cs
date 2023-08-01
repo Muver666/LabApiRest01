@@ -13,7 +13,8 @@ namespace LabApiRest01.ContextFactory
             .AddJsonFile("appsettings.json")
             .Build();
             var builder = new DbContextOptionsBuilder<RepositoryContext>()
-            .UseSqlServer(configuration.GetConnectionString("sqlConnection"));
+            .UseSqlServer(configuration.GetConnectionString("sqlConnection"),
+            b => b.MigrationsAssembly("LabApiRest01"));
             return new RepositoryContext(builder.Options);
         }
     }
