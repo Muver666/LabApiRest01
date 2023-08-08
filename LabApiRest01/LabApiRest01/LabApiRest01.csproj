@@ -17,8 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj" />
     <ProjectReference Include="..\LoggerServices\LoggerService.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\Services.Contracts\Services.Contracts.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
 </Project>

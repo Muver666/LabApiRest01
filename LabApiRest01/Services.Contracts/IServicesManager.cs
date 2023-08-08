@@ -1,16 +1,16 @@
-﻿using System;
+﻿using Services.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Contracts
+namespace Service.Contracts
 {
-    public interface IServicesManager
+    public interface IServiceManager
     {
-
-
-        ICompanyServices CompanyServices { get; }
-        IEmployeeServices EmployeeServices { get; }
+        ICompanyServices CompanyService { get; }
+        IEmployeeServices EmployeeService { get; }
     }
 }
+

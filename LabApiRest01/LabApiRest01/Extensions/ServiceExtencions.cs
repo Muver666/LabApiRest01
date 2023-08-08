@@ -3,6 +3,9 @@ using LoggerService;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using Repository;
+using Service;
+using Service.Contracts;
+using Services.Contracts;
 
 namespace LabApiRest01.Extensions
 {
@@ -27,7 +30,12 @@ namespace LabApiRest01.Extensions
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
         public static void ConfigureServiceManager(this IServiceCollection services) =>
-            services.AddScoped<IRepositoryManager, RepositoryManager>();
+            services.AddScoped<IServiceManager, ServiceManager>();
+
+
+        public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) =>
+        services.AddDbContext<RepositoryContext>(opts =>
+        opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
 
     }
 }

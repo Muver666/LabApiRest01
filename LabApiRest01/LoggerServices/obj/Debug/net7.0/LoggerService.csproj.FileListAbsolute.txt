@@ -2,7 +2,9 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\LoggerService.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\LoggerService.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\Contracts.dll
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\Entities.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\bin\Debug\net7.0\Entities.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LoggerServices\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
