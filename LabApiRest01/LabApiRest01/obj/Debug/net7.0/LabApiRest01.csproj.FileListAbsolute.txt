@@ -6,6 +6,8 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bi
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\LabApiRest01.runtimeconfig.json
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\LabApiRest01.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\LabApiRest01.pdb
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Humanizer.dll
@@ -63,6 +65,7 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bi
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Repository.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Service.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Services.Contracts.dll
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Shared.dll
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\CompanyEmployees.Presentation.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\LoggerService.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Repository.pdb
@@ -70,6 +73,7 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bi
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Service.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Contracts.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Entities.pdb
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Shared.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.csproj.AssemblyReference.cache
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.AssemblyInfoInputs.cache

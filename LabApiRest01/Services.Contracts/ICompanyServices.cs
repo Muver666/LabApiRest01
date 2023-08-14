@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities.Models;
+using Shared.DataTransferObjects;
 
 namespace Services.Contracts
 {
     public interface ICompanyServices
     {
-        IEnumerable<Company> GetAllCompanies(bool trackChages);
+        IEnumerable<CompanyDto> GetAllCompanies(bool trackChages);
     }
 }
