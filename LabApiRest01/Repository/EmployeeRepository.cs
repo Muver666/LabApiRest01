@@ -8,12 +8,17 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
+    internal sealed class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
     {
         public EmployeeRepository(RepositoryContext repositoryContext)
             : base(repositoryContext)
         {
 
         }
+
+        public IEnumerable<Employee> GetAllEmployees(bool trackChanges) =>
+            FindAll(trackChanges)
+            .OrderBy(c => c.Name)
+            .ToList();
     }
 }

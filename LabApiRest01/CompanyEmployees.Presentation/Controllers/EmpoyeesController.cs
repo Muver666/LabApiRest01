@@ -10,21 +10,21 @@ namespace CompanyEmployees.Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CompaniesController : ControllerBase
+    public class EmployeesController : ControllerBase
     {
         private readonly IServiceManager _service;
 
-        public CompaniesController(IServiceManager service) =>
+        public EmployeesController(IServiceManager service) =>
             _service = service;
 
         [HttpGet]
-        public IActionResult GetCompanies()
+        public IActionResult GetEmployees()
         {
             try
             {
-                var companies =
-                _service.CompanyService.GetAllCompanies(trackChages: false);
-                return Ok(companies);
+                var employees =
+                _service.EmployeeService.GetAllEmployees(trackChages: false);
+                return Ok(employees);
             }
             catch
             {

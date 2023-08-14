@@ -9,8 +9,10 @@ namespace LabApiRest01
         public MappingProfile()
         {
             CreateMap<Company, CompanyDto>()
-                .ForMember(c => c.FullAddress,
+                .ForCtorParam("FullAddress",
                 opt => opt.MapFrom(x => string.Join(' ', x.Address, x.Country)));
+
+            CreateMap<Employee, EmployeeDto>();
                                                 
         }
     }
