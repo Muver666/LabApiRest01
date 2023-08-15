@@ -1,3 +1,4 @@
+using Contracts;
 using LabApiRest01.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,14 @@ builder.Services.AddControllers()
 
 var app = builder.Build();
 
+var logger = app.Services.GetRequiredService<ILoggerManager>();
+app.ConfigureExceptionHandler(logger);
+
+if (app.Environment.IsProduction())
+{
+    app.UseHsts();
+}
+   
 
 //if (app.Environment.IsDevelopment())
 //    app.UseDeveloperExceptionPage();
