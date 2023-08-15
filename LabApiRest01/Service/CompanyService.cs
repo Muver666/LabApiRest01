@@ -36,6 +36,14 @@ namespace Service
             
         }
 
-      
+        public CompanyDto GetCompany(Guid companyId, bool trackChages)
+        {
+            var company = _repository.Company.GetCompany(companyId, trackChages);
+
+            var companyDto = _mapper.Map<CompanyDto>(company);
+
+            return companyDto;
+
+        }
     }
 }
