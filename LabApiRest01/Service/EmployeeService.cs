@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities.Exceptions;
 using Services.Contracts;
 using Shared.DataTransferObjects;
 using System;
@@ -25,8 +26,7 @@ namespace Service
 
         public IEnumerable<EmployeeDto> GetAllEmployees(bool trackChanges)
         {
-            try
-            {
+          
                 var employees = _repository.Employee.GetAllEmployees(trackChanges);
 
                 //var employeesDto = employees.Select(c=> new EmployeeDto(c.Id, c.Name?? " ", string.Join(' ',c.Address, c.Country))).ToList();
@@ -35,11 +35,22 @@ namespace Service
 
                 return employeesDto;
             }
-            catch (Exception ex)
+
+
+        public EmployeeDto GetEmployee(Guid employeeId, bool trackChages)
+        {
+            var employe = _repository.Employee.GetEmployee(employeeId, trackChages);
+
+            if (employe == null)
             {
-                _logger.LogError($"Something went wrong in the {nameof(GetAllEmployees)} service method {ex}");
-                throw;
+                throw new EmployeeNotFoundException(employeeId);
             }
+
+            var EmployeeDto = _mapper.Map<EmployeeDto>(employe);
+
+            return EmployeeDto;
+
         }
+    
     }
 }

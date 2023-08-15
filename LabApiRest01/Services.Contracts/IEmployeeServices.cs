@@ -10,5 +10,6 @@ namespace Services.Contracts
     public interface IEmployeeServices
     {
         IEnumerable<EmployeeDto> GetAllEmployees(bool trackChages);
+        EmployeeDto GetEmployee(Guid id, bool trackChages);
     }
 }
