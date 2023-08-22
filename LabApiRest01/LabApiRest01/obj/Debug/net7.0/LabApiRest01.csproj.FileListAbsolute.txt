@@ -1,3 +1,9 @@
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.AssemblyInfoInputs.cache
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.AssemblyInfo.cs
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\nlog.config
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\appsettings.json
@@ -74,13 +80,7 @@ C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bi
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Contracts.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Entities.pdb
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\bin\Debug\net7.0\Shared.pdb
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.csproj.AssemblyReference.cache
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.AssemblyInfoInputs.cache
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.AssemblyInfo.cs
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.csproj.CoreCompileInputs.cache
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\LabApiRest01.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\staticwebassets\msbuild.LabApiRest01.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\staticwebassets\msbuild.build.LabApiRest01.props
 C:\Users\Aprendiz\Desktop\LAbApiRest01\LabApiRest01\LabApiRest01\LabApiRest01\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LabApiRest01.props

@@ -8,8 +8,7 @@ namespace LabApiRest01.Extensions
 {
     public static class ExceptionMiddlewareExtensions
     {
-        public static void ConfigureExceptionHandler(this WebApplication app,
-       ILoggerManager logger)
+        public static void ConfigureExceptionHandler(this WebApplication app, ILoggerManager logger)
         {
             app.UseExceptionHandler(appError =>
             {
@@ -28,6 +27,7 @@ namespace LabApiRest01.Extensions
                         };
 
                         logger.LogError($"Something went wrong: {contextFeature.Error}");
+
                         await context.Response.WriteAsync(new ErrorDetails()
                         {
                             StatusCode = context.Response.StatusCode,

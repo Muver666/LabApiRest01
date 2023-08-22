@@ -3,6 +3,7 @@ using Contracts;
 using Entities.Exceptions;
 using Services.Contracts;
 using Shared.DataTransferObjects;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,21 +37,36 @@ namespace Service
                 return employeesDto;
             }
 
+        //public EmployeeDto GetEmployee(Guid companyid, bool trackChanges)
+        //{
+        //    var company = _repository.Company.GetCompany(companyid, trackChanges);
 
-        public EmployeeDto GetEmployee(Guid employeeId, bool trackChages)
+        //    if (company is null)
+        //    {
+        //        throw new CompanyNotFoundException(companyid);
+        //    }
+
+        //    var employeesFromDb = _repository.Employee.GetEmployee(companyid, trackChanges);
+        //    var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
+        //    return employeesDto;
+        //}
+
+        public EmployeeDto GetEmployee(Guid companyid, Guid id, bool trackChanges)
         {
-            var employe = _repository.Employee.GetEmployee(employeeId, trackChages);
+            var company = _repository.Company.GetCompany(companyid, trackChanges);
 
-            if (employe == null)
+            if (company is null)
             {
-                throw new EmployeeNotFoundException(employeeId);
+                throw new CompanyNotFoundException(companyid);
             }
+            var employeeDb = _repository.Employee.GetEmployee(companyid, id, trackChanges);
+            if(employeeDb is null)
+            {
+                throw new EmployeeNotFoundException(id);
+            }
+            var employeeDto = _mapper.Map<EmployeeDto>(employeeDb);
 
-            var EmployeeDto = _mapper.Map<EmployeeDto>(employe);
-
-            return EmployeeDto;
-
+            return employeeDto;
         }
-    
     }
 }

@@ -25,12 +25,14 @@ namespace CompanyEmployees.Presentation.Controllers
                 return Ok(employees);
         }
 
-        [HttpGet("{id:guid}")]
+        [Route("api/companies/{companyId}/employees")]
 
-        public IActionResult GetEmployee(Guid id)
+        [HttpGet("{id:guid}")] 
+
+        public IActionResult GetEmployee(Guid companyid, Guid id)
         {
-            var employe = _service.EmployeeService.GetEmployee(id, trackChages: false);
-            return Ok(employe);
+            var employee = _service.EmployeeService.GetEmployee(companyid, id, trackChages: false);
+            return Ok(employee);
         }
 
     }

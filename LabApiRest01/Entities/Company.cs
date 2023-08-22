@@ -14,7 +14,7 @@ namespace Entities.Models
     public class Company
     {
 
-        [Column("CompayId")]
+        [Column("CompanyId")]
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Employe name is a required failed. ")]
         [MaxLength(60, ErrorMessage = "Maximun length for the name is 60 characters")]
