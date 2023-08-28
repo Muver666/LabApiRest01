@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj": {}
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "projectName": "CompanyEmployees.Presentation",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
               }
             }
           }
@@ -74,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,15 +95,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj"
               }
             }
           }
@@ -138,20 +136,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,7 +158,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -198,20 +195,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj",
         "projectName": "LabApiRest01",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LabApiRest01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -220,7 +217,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -228,20 +224,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj"
               }
             }
           }
@@ -298,20 +294,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\LoggerServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -320,15 +316,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -368,20 +363,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -390,18 +385,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Entities\\Entities.csproj"
               }
             }
           }
@@ -461,20 +455,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj",
         "projectName": "Services.Contracts",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -483,15 +477,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj"
               }
             }
           }
@@ -525,20 +518,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Service\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -547,18 +540,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
+              "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj": {
+                "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Services.Contracts\\Services.Contracts.csproj"
               }
             }
           }
@@ -598,20 +590,20 @@
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LAbApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\LabApiRest01\\LabApiRest01\\LabApiRest01\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -620,7 +612,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
