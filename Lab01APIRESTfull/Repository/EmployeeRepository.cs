@@ -10,10 +10,22 @@ internal sealed class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRe
     {
     }
 
+    public IEnumerable<Employee> GetAllEmployees(bool trackChanges) =>
+        FindAll(trackChanges)
+        .OrderBy(e => e.Name)
+        .ToList();
+
+    public Employee GetEmployeesById(Guid Id, bool trackChanges) =>
+       FindByCondition(e => e.Id.Equals(Id), trackChanges)
+       .OrderBy(e => e.Name)
+       .SingleOrDefault();
+
     public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) =>
         FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
         .OrderBy(e => e.Name)
         .ToList();
+
+
 
     public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
         FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges)

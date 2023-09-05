@@ -12,6 +12,20 @@ public class EmployeesController : ControllerBase
 
     public EmployeesController(IServiceManager service) => _service = service;
 
+    [HttpGet("/api/employees")]
+    public IActionResult GetAllEmployees()
+    {
+        var employees = _service.EmployeeService.GetAllEmployees(trackChanges: false);
+        return Ok(employees);
+    }
+
+    [HttpGet("/api/employees/{id:guid}", Name = "GetEmployeesById")]
+    public IActionResult GetEmployeesById(Guid id)
+    {
+        var employee = _service.EmployeeService.GetEmployeesById(id, trackChanges: false);
+        return Ok(employee);
+    }
+
     [HttpGet]
     public IActionResult GetEmployeesForCompany(Guid companyId)
     {

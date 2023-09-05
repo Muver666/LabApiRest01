@@ -32,6 +32,25 @@ internal sealed class EmployeeService : IEmployeeService
         return employeesDto;
     }
 
+    public IEnumerable<EmployeeDto> GetAllEmployees(bool trackChanges)
+    {
+        var employees = _repository.Employee.GetAllEmployees(trackChanges);
+
+        var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+
+        return employeesDto;
+    }
+
+    public EmployeeDto GetEmployeesById(Guid id, bool trackChanges)
+    {
+        var employee = _repository.Employee.GetEmployeesById(id, trackChanges);
+        if (employee is null)
+            throw new EmployeeNotFoundException(id);
+
+        var employeeDto = _mapper.Map<EmployeeDto>(employee);
+        return employeeDto;
+    }
+
     public EmployeeDto GetEmployee(Guid companyId, Guid id, bool trackChanges)
     {
         var company = _repository.Company.GetCompany(companyId, trackChanges);
