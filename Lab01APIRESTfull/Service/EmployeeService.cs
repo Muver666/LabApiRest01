@@ -4,6 +4,7 @@ using Entities.Exceptions;
 using Entities.Models;
 using Service.Contracts;
 using Shared.DataTransferObjects;
+using System.Data;
 
 namespace Service;
 
@@ -35,6 +36,7 @@ internal sealed class EmployeeService : IEmployeeService
     public IEnumerable<EmployeeDto> GetAllEmployees(bool trackChanges)
     {
         var employees = _repository.Employee.GetAllEmployees(trackChanges);
+
 
         var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
 
